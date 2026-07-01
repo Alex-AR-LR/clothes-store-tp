@@ -1,0 +1,21 @@
+Quiero que diseñes una aplicación web de una tienda de ropa usando las dependencias que ya tengo instaladas en mi proyecto (Next.js, TailwindCSS y shadcn/ui). 
+
+Contexto:
+- Es un trabajo grupal universitario. Yo me encargo del frontend, mis compañeros del backend y base de datos.
+- Ya tengo la estructura inicial del proyecto creada con Next.js.
+- Necesito que generes un diseño completo de varias páginas (ejemplo: Home, Catálogo de productos, Detalle de producto, Carrito de compras, Checkout, Contacto).
+- El diseño debe **maximizar el uso de los componentes ya existentes en la librería shadcn/ui** (Navbar, Button, Card, Input, Dialog, Dropdown, Select, Tooltip, etc.).
+- Usá TailwindCSS para estilos y layout, pero siempre priorizá los componentes de shadcn/ui antes de escribir clases manuales.
+- La aplicación debe estar lista para que mis compañeros puedan continuar con la integración del backend y base de datos.
+
+Objetivo:
+- Crear un frontend moderno, consistente y escalable.
+- Mantener buenas prácticas de organización de carpetas y componentes.
+- Incluir navegación entre páginas y estructura clara para futuras integraciones.
+- Generar un README.md explicando la estructura y cómo el backend puede conectarse con el frontend.
+
+
+-Además, quiero que el diseño incluya un layout.tsx optimizado en Next.js que defina la estructura base de la aplicación. 
+Este layout debe contener un Navbar y un Footer reutilizables, implementados con componentes de shadcn/ui, y aplicarse en todas las páginas de la tienda. 
+El Navbar debe incluir navegación hacia las secciones principales (Home, Catálogo, Carrito, Checkout, Contacto) y el Footer debe mostrar información básica de la tienda. 
+El objetivo es que el layout.tsx sirva como marco global, evitando duplicación de código y asegurando consistencia visual en toda la aplicación.
